@@ -1,0 +1,60 @@
+ARJUN MEHTA
+Bengaluru, India | arjun.mehta@email.com | linkedin.com/in/arjunmehta | github.com/arjunmehta-dev
+
+SUMMARY
+Backend engineer with 4 years of experience building scalable Python services for e-commerce and logistics domains. Strong in REST API development and PostgreSQL; actively upskilling in distributed systems and cloud infrastructure.
+
+EXPERIENCE
+
+Backend Engineer | ShopStream Technologies | Jan 2022 – Present (2.5 years)
+Bengaluru, India (E-commerce SaaS platform, 500k daily active users)
+
+- Built and maintained 8 REST APIs using FastAPI for order management, inventory sync, and seller dashboard; served 12M+ requests/month with 99.7% uptime
+- Optimized 15+ slow PostgreSQL queries using EXPLAIN ANALYZE; reduced average query time from 850ms to 120ms by adding composite indexes and rewriting N+1 queries
+- Integrated Redis for session caching and product catalog caching; implemented TTL-based invalidation strategy that cut DB read load by 40%
+- Introduced pytest-based test suite from scratch; achieved 72% code coverage across core modules
+- Reviewed code for 2 junior engineers weekly; mentored 1 intern on API design patterns
+- Collaborated with frontend team to design and version 3 API contracts (v1→v2 migrations)
+- Participated in on-call rotation (1 week/month); led 2 postmortem write-ups
+
+Junior Backend Developer | LogiTrack Solutions | Jun 2020 – Dec 2021 (1.5 years)
+Pune, India (B2B logistics tracking software)
+
+- Developed Django REST Framework APIs for shipment tracking and driver management
+- Wrote SQL queries and stored procedures for reporting dashboards in PostgreSQL
+- Built a Celery + Redis task queue for sending bulk SMS notifications (50k messages/day)
+- Maintained Docker-compose development environments for the 6-person engineering team
+
+PROJECTS
+
+Project: Inventory Surge Detector (2023, personal)
+- Built a Python service that detects unusual inventory spikes using time-series analysis
+- Stores events in PostgreSQL with partitioned tables; sends Slack alerts via webhook
+- Deployed on a DigitalOcean Droplet using Docker; exposed via Nginx reverse proxy
+- Skills: FastAPI, PostgreSQL (partitioning), Docker, time-series queries
+
+Project: URL Shortener with Analytics (2022, personal)
+- Built a Redis-backed URL shortener with click tracking and geographic analytics
+- Implemented Redis Sorted Sets for leaderboard of top URLs
+- REST API with rate limiting using Redis token bucket pattern
+- Skills: Flask, Redis, PostgreSQL, rate limiting
+
+EDUCATION
+
+B.Tech in Computer Science | Pune Institute of Computer Technology | 2020
+GPA: 8.1/10
+
+SKILLS
+
+Languages: Python (advanced), SQL (advanced), JavaScript (basic), Go (beginner — learning)
+Frameworks: FastAPI (advanced), Django REST Framework (intermediate), Flask (intermediate)
+Databases: PostgreSQL (intermediate-advanced), Redis (intermediate), MySQL (basic)
+Tools: Git, Docker, Celery, pytest, Nginx, GitHub Actions (basic), Postman
+Cloud: AWS (basic — EC2, S3 only; no RDS or managed services experience)
+Concepts: REST API design, async Python, ORM (SQLAlchemy), microservices (limited exposure)
+
+CERTIFICATIONS
+- Python for Data Science — Coursera (2021)
+- AWS Cloud Practitioner — In progress
+
+LANGUAGES: English (professional), Hindi (native), Marathi (conversational)

@@ -1,0 +1,47 @@
+Senior Backend Engineer
+TechScale Inc. | Full-Time | Remote-First
+
+About TechScale:
+TechScale is a Series B fintech startup building next-generation payment infrastructure for emerging markets. We process $2B+ in transactions annually across 15 countries. Our engineering team is 40 engineers strong and growing fast.
+
+About the Role:
+We're looking for a Senior Backend Engineer to join our Platform team. You'll design and build the core services that power our payment processing pipeline — low-latency, high-availability systems that millions of transactions flow through daily.
+
+Responsibilities:
+- Design, build, and maintain high-throughput microservices in Python (FastAPI/Flask) and occasionally Go
+- Own the reliability and scalability of our payment processing APIs (SLA: 99.99%)
+- Lead technical design reviews and architecture decisions for the Platform team
+- Build and optimize PostgreSQL and Redis data layers; design schemas for financial data
+- Implement async task processing with Celery and message queuing with Kafka
+- Integrate with third-party payment providers (Stripe, Razorpay, SWIFT) and ensure PCI-DSS compliance
+- Write and maintain comprehensive unit, integration, and load tests (pytest, Locust)
+- Mentor 2-3 junior engineers; conduct code reviews with an eye for security and performance
+- Participate in on-call rotation for production systems; lead incident postmortems
+- Collaborate with product and data teams to expose clean internal APIs
+
+Requirements (Must Have):
+- 4+ years of backend engineering experience
+- Strong Python proficiency — you can write production-grade async Python (asyncio, FastAPI or Django REST)
+- Deep understanding of relational databases — PostgreSQL specifically (query optimization, indexing strategies, transactions, EXPLAIN ANALYZE)
+- Redis — caching patterns, TTL strategies, Pub/Sub, distributed locking
+- RESTful API design — you've built and versioned APIs consumed by multiple teams
+- System design fundamentals — you can design for horizontal scaling, handle race conditions, think about failure modes
+- Distributed systems concepts — CAP theorem, eventual consistency, idempotency in payment systems
+- Git workflows, CI/CD pipelines (GitHub Actions or similar)
+- Docker and containerization — you've shipped services in containers
+- Strong written and verbal communication — you write design docs and can explain trade-offs clearly
+
+Nice to Have:
+- Experience with Kafka or RabbitMQ (message queuing at scale)
+- Go experience (we have services in Go and are expanding)
+- AWS or GCP cloud services (RDS, ElastiCache, ECS, Lambda)
+- Kubernetes — you've deployed to a k8s cluster
+- Experience in fintech, payments, or highly regulated environments
+- Knowledge of PCI-DSS compliance requirements
+
+What We Offer:
+- Competitive compensation: ₹28-45 LPA based on experience
+- Fully remote with quarterly offsites
+- Learning budget of ₹75,000/year
+- 25 days PTO + company holidays
+- Top-tier health insurance
